@@ -1,5 +1,6 @@
 def display_question(question, options):
     print(question)
+    # print the question
     for i, option in enumerate(options, start=1):
         print(f"{i}. {option}")
 
